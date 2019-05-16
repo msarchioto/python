@@ -1,0 +1,9 @@
+{
+  "inputCols": ["NrFattura", "DataFattura", "ModalitaDiPagamento"],
+  "outputCols": ["NrFattura", "DataFattura", "DataScadenzaPagamento"],
+  "validModes": ["DF", "DFFM", "DF60"],
+  "idField": "NrFattura",
+  "dateField": "DataFattura",
+  "modeField": "ModalitaDiPagamento",
+  "csvDelimiter": ";"
+}
